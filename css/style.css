@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'DS-DIGII';
+  src: url('/fonts/DS-DIGII.TTF');
+}
+
+@font-face{
+  font-family: 'Montserrat-Italic-VariableFont_wght';
+  src: url('/fonts/Montserrat-Italic-VariableFont_wght.ttf')
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #333;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.data{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffc107;
+  padding: 10px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
+}
+
+.clock{
+  font-family: 'DS-DIGII', sans-serif;
+  font-size: 100px;
+  color: #777777;
+  border: 1px solid #ffc107;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0.3);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
+}
+
+.clock:hover {
+  box-shadow: 0 5px 10px rgb(251, 255, 0); /* Add the shadow effect */
+  transform: scale(1.1);
+}
+
+.cronometro-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.cronometro-titulo{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffc107;
+  padding: 10px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
+}
+
+.cronometro{
+  font-family: 'DS-DIGII', sans-serif;
+  font-size: 100px;
+  color: #777777;
+  border: 1px solid #ffc107;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0.3);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
+}
+
+.cronometro:hover {
+  box-shadow: 0 5px 10px rgb(251, 255, 0); /* Add the shadow effect */
+  transform: scale(1.1);
+}
+
+.btn{
+  margin-top: 25px;
+  font-size: 15px;
+  background-color: #ffc107;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #e0a800;
+  border-color: #e0a800;
+  color: #fff;
+  box-shadow: 0px 0px 5px rgb(255, 251, 0);
+
+}
